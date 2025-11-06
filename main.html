@@ -1,110 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semantic Table and Media List</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fafafa;
-      margin: 40px;
-      text-align: center;
-    }
-
-    table {
-      width: 50%;
-      margin: 0 auto;
-      border-collapse: collapse;
-      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
-    }
-
-    thead {
-      background-color: #4CAF50;
-      color: white;
-    }
-
-    th, td {
-      border: 1px solid #ddd;
-      padding: 10px;
-    }
-
-    tbody tr:nth-child(even) {
-      background-color: #f2f2f2;
-    }
-
-    h2 {
-      margin: 30px 0 20px;
-      color: #333;
-    }
-
-    ol {
-      width: 50%;
-      margin: 0 auto;
-      text-align: left;
-    }
-
-    img, video, audio {
-      display: block;
-      margin-top: 10px;
-      width: 100%;
-      border-radius: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tables and Media</title>
 </head>
 <body>
+    <!-- Semantic Table -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Roll Number</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Rahul</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Priya</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Aman</td>
+            </tr>
+        </tbody>
+    </table>
 
-  <!-- Semantic Table -->
-  <table>
-    <thead>
-      <tr>
-        <th>Roll Number</th>
-        <th>Name</th>
-      </tr>
-    </thead>
+    <!-- Heading between Table and List -->
+    <h2>List of medias</h2>
 
-    <tbody>
-      <tr>
-        <td>101</td>
-        <td>Ravi Sharma</td>
-      </tr>
-      <tr>
-        <td>102</td>
-        <td>Neha Patel</td>
-      </tr>
-      <tr>
-        <td>103</td>
-        <td>Aman Verma</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- Heading between Table and List -->
-  <h2>List of medias</h2>
-
-  <!-- Ordered List with Media -->
-  <ol>
-    <li>
-      <strong>Image:</strong>
-      <img src="https://picsum.photos/id/123/200/300" alt="Sample Random Image">
-    </li>
-
-    <li>
-      <strong>Video:</strong>
-      <video width="320" height="240" controls>
-        <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </li>
-
-    <li>
-      <strong>Audio:</strong>
-      <audio controls>
-        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-        Your browser does not support the audio element.
-      </audio>
-    </li>
-  </ol>
-
+    <!-- Ordered List with Media -->
+    <ol>
+        <li>
+            <p>Image:</p>
+            <img src="https://picsum.photos/id/123/200/300" alt="Sample random image">
+        </li>
+        <li>
+            <p>Video:</p>
+            <video width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </li>
+        <li>
+            <p>Audio:</p>
+            <audio controls>
+                <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+                Your browser does not support the audio element.
+            </audio>
+        </li>
+    </ol>
 </body>
 </html>
