@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Semantic Table and Media List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tables and Media</title>
 </head>
 <body>
-
+    <!-- Semantic HTML Table -->
     <table>
         <thead>
             <tr>
-                <th>Roll Number</th>
-                <th>Name</th>
+                <th>Roll Numbers</th>
+                <th>Names</th>
             </tr>
         </thead>
         <tbody>
@@ -24,25 +25,25 @@
             </tr>
             <tr>
                 <td>103</td>
-                <td>Charlie Davis</td>
+                <td>Carol Williams</td>
             </tr>
         </tbody>
     </table>
 
+    <!-- Heading between table and list -->
     <h2>List of medias</h2>
 
+    <!-- Ordered List with Media Items -->
     <ol>
         <li>
-            <img src="https://picsum.photos/id/123/200/300" alt="A scenic view of a landscape">
+            <img src="https://picsum.photos/id/123/200/300" alt="Sample image from picsum.photos">
         </li>
-
         <li>
-            <video controls width="320">
-                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+            <video width="320" height="240" controls>
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
                 Your browser does not support the video tag.
             </video>
         </li>
-
         <li>
             <audio controls>
                 <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
@@ -50,6 +51,5 @@
             </audio>
         </li>
     </ol>
-
 </body>
 </html>
